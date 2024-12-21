@@ -9,6 +9,10 @@ This assignment demonstrates SQL queries in SAS Studio with a focus on:
 - Advanced SQL concepts for efficiency and clarity
 */
 
+-- Firstly, Create your Library in SAS (the following path corresponds to my library)
+libname sq '~/my_shared_file_links/u63724591/data tables';
+
+-- Now, lets begin the Show!
 -- Step 1a: Default Join 🤔
 -- Concept: Avoiding Cartesian Products
 -- When performing joins, ensure the ON condition is properly defined to avoid combining every row in one table with every row in another.
